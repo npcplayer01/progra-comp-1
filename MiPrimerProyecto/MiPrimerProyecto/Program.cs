@@ -17,7 +17,7 @@ namespace MiPrimerProyecto
 
             int suma = num1 + num2;
             Console.WriteLine("La suma es: {0}", suma);
-
+            //detener
             Console.ReadLine();
         }
     }
