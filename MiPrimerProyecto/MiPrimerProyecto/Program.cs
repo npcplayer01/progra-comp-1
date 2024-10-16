@@ -9,7 +9,15 @@ namespace MiPrimerProyecto
     internal class Program
     {
         static void Main(string[] args){
-            Console.WriteLine("Hola mundo, y a la clase de progra 1");
+            Console.WriteLine("num 1: ");
+            int num1 = Int16.Parse(Console.ReadLine());
+
+            Console.WriteLine("num 2: ");
+            int num2 = Int32.Parse(Console.ReadLine());
+
+            int suma = num1 + num2;
+            Console.WriteLine("La suma es: {0}", suma);
+
             Console.ReadLine();
         }
     }
